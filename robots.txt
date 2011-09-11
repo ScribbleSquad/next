@@ -1,0 +1,2 @@
+User-agent: 192.comAgent
+Disallow: ⁄

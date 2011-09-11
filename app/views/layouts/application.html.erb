@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="keywords" content="web design, webdesign, online advertising, advertising, media, web apps, webapps, iphone, design, graphic design, php, jquery, css, html, xhtml, css3, html5, javascript, javascripts, asp, ruby, rails, ror, ruby on rails, sinatra, c#, c, mysql, my sql, sql, video, video editing, painting, illustration, facebook, facebook apps, facebook app, app, apps, drawing, ux, user experience, ui, user interface, copywriting, interface, interface design, marketing, as3, actionscript3, actionscript 3, adobe, photoshop, dreamweaver, illustrator, typography, flash animation, flash, css3 transitions, browsers, hacks, tips, music, websites, website, website design, online pressence, online, sgml, hypertext, hello world">
+<meta name="description" content="Specialists in human factors, user psychology, online business, experience design, web engineering and web applications. We provide full service consulting for product innovation and design.">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Scribble Squad | We are ideas. And we are loud.</title>
+<%= stylesheet_link_tag    "application" %>
+ <%= javascript_include_tag "application" %>
+ <%= csrf_meta_tags %>
+<link href="assets/fancybox/jquery.fancybox-1.3.4.css" rel="stylesheet" type="text/css" media="all" />
+	<script type="text/javascript" src="assets/fancybox/jquery.easing-1.3.pack.js"></script>
+	<script type="text/javascript" src="assets/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+	<script type="text/javascript" src="assets/fancybox/jquery.fancybox-1.3.4.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <%= render :partial => 'shared/header' %>
+        <%= yield %>
+        
+    </div>
+    <script type="text/javascript">
+
+   	  var _gaq = _gaq || [];
+   	  _gaq.push(['_setAccount', 'UA-22978481-1']);
+   	  _gaq.push(['_setDomainName', '.scribblesquad.com']);
+   	  _gaq.push(['_trackPageview']);
+
+   	  (function() {
+   		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+   		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+   		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+   	  })();
+
+   	</script>
+
+</body>
+</html>
